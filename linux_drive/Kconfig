@@ -1,0 +1,6 @@
+config MPU6050
+    tristate "MPU6050 I2C Driver"
+    default y
+    help
+      Say Y here if you want to enable the MPU6050 I2C driver.
+      This driver supports the MPU6050 motion sensor.
